@@ -12,6 +12,7 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         Foreground="White"
+        MouseDown="SettingsWindow_OnMouseDown"
         FontFamily="Segoe UI Light"
         materialDesign:ThemeAssist.Theme="Dark"
         Title="SettingsWindow" Height="650" Width="420">

@@ -145,5 +145,11 @@ namespace CryptoWigdet
             }
 
         }
+
+        private void SettingsWindow_OnMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (MouseButtonState.Pressed == e.LeftButton)
+                DragMove();
+        }
     }
 }

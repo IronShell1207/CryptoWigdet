@@ -31,6 +31,7 @@ namespace CryptoWigdet
             FormScaler.ScaleY = ExchangesHandlers.SettingsH.WSize;
 
 
+
         }
         private void GenerateWidgetStartup()
         {
